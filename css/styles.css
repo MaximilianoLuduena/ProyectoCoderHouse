@@ -1,0 +1,97 @@
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border box;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ ul,
+ ol {
+    list-style: none;
+ }
+
+ a {
+    text-decoration: none;
+    color: black;
+ }
+
+ /* header */
+ .header {
+    background-color: rgba(233, 150, 122, 0.479);
+    padding: 15px;
+    position: absolute;
+    width: 100vw;
+  }
+
+  .header__title {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .header__logo {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .header__logo img {
+        width: 40px;
+  }
+
+  .header__nav ul{
+    display: flex;
+    justify-content: space-around;
+  }  
+
+  @media (min-width: 768px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .header__nav {
+        width: 50%;
+    }
+  }
+
+/* hero section */
+.hero {
+    height: 100vh;
+    background-image: url(../assets/pizzasyempanadas2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__text {
+    text-align: center;
+}
+
+.hero__text h2{
+    font-size: 2rem;
+    padding: 30px;
+}
+
+.hero__text h3{
+    font-size: 1.5rem;
+}
+
+.hero__text h4 {
+    font-size: 3rem;
+}
+
+ 
+ .boton2:hover {
+     border: blue 2px solid;
+     background: white;
+     color: blue;
+ }
+
+
