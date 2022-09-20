@@ -5,30 +5,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title>inicio</title>
 </head>
-<header class="header">
-
-    <div class="header__logo">
-        <img src="./assets/pizzalogo.png" alt="logo de pizza">
-        <h1 class="header__title">Pizzeria LOS ABUELOS</h1>
-        <img src="./assets/empanadalogo.png" alt="logo de empanada">
-    </div>
-    <nav class="header__nav">
-        <ul>
-            <li class="texto-nav"><a class="boton1" href="./pages/menu.html">MENÚ</a></li>
-            <li class="texto-nav"><a class="boton1" href="./pages/promo.html">PROMO</a></li>
-            <li class="texto-nav"><a class="boton1" class="boton1" href="./pages/especiales.html">ESPECIALES</a>
-            </li>
-            <li class="texto-nav"><a class="boton1" href="./pages/contacto.html">CONTACTO</a></li>
-            <li class="texto-nav"><a class="boton1" href="./pages/registro.html">REGISTO</a></li>
-        </ul>
-    </nav>
-
-</header>
 
 <body class="fuente-body">
+
+    <header class="header">
+
+        <div class="header__logo">
+            <img src="./assets/pizzalogo.png" alt="logo de pizza">
+            <h1 class="header__title">Pizzeria LOS ABUELOS</h1>
+            <img src="./assets/empanadalogo.png" alt="logo de empanada">
+        </div>
+        <nav class="header__nav">
+            <ul class="row">
+                <li class="col-4 col-md-2 "><a class="boton2" href="./pages/menu.html">MENÚ</a></li>
+                <li class="col-4 col-md-2"><a class="boton2" href="./pages/promo.html">PROMO</a></li>
+                <li class="col-4 col-md-3"><a class="boton2" class="boton1"
+                        href="./pages/especiales.html">ESPECIALES</a>
+                </li>
+                <li class="col-6 col-md-3"><a class="boton2" href="./pages/contacto.html">CONTACTO</a></li>
+                <li class="col-6 col-md-2"><a class="boton2" href="./pages/registro.html">REGISTO</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
 
     <main>
         <section class="hero">
@@ -41,66 +46,83 @@
         </section>
         <section>
 
-            <article>
-                <h2 class="texto-azul2">PROMOS</h2>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="./pages/menu.html"><img class="imagen-menu" src="./assets/pizza.gif"
-                                    alt="pizza"></a>
-                        </li>
-                    </ul>
-                </nav>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="./pages/menu.html"><img class="imagen-menu" src="./assets/empanadas.gif"
-                                    alt="empanadas"></a>
-                        </li>
-                    </ul>
-                </nav>
+            <article class="row">
+                <div class="col-12 col-md-7">
+                    <h2 class="texto-azul2">PROMOS</h2>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="./pages/menu.html"><img class="img-main" src="./assets/pizza.gif"
+                                        alt="pizza"></a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="./pages/menu.html"><img class="img-main" src="./assets/empanadas.gif"
+                                        alt="empanadas"></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
 
             </article>
 
-            <article>
-                <h2 class="texto-azul3">ESPECIALES</h2>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="./pages/especiales.html"><img class="imagen-menu" src="./assets/milanesa.gif"
-                                    alt="promo"></a>
-                        </li>
-                    </ul>
-                </nav>
+            <article class="row">
+                <div class="col-12 col-md-5">
+                    <h2 class="texto-azul3">ESPECIALES</h2>
+                    <nav class="col">
+                        <ul>
+                            <li>
+                                <a href="./pages/especiales.html"><img class="img-main" src="./assets/milanesa.gif"
+                                        alt="promo"></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </article>
         </section>
     </main>
-    <footer>
-        <div>
-            <img class="imagen-final" src="./assets/pizzeria-los-abuelos.jpeg" alt="pizzeria los abuelos">
+    <footer class="footer">
+        <div class="footer__logo">
+            <img src="./assets/pizzalogo.png" alt="logo de pizza">
+            <h1 class="footer__title">Pizzeria LOS ABUELOS</h1>
+            <img src="./assets/empanadalogo.png" alt="logo de empanada">
         </div>
-        <span>
-            <h3 class="texto-negro"> >DIRECCIÓN</h3>
-        </span>
-        <span>
-            <h4 class="texto-negro2">Sussini 1260 entre Buschiazzo y Reybaud - Don Torcuato</h4>
-        </span>
-        <span>
-            <h3 class="texto-negro">WHATSAPP</h3>
-        </span>
-        <span>
-            <h4 class="texto-negro2">11-22223333</h4>
-        </span>
-        <span>
-            <h3 class="texto-negro">HORARIOS</h3>
-        </span>
-        <span>
-            <h4 class="texto-negro2">11:00 a 15:00</h4>
-            <h4 class="texto-negro2">18:00 a 23:00</h4>
-        </span>
+
+        <div class="row">
+            <div class="col-12 col-md-4 text-center">
+                <span>
+                    <h3> >DIRECCIÓN</h3>
+                </span>
+                <span>
+                    <h4>Sussini 1260 entre Buschiazzo y Reybaud - Don Torcuato</h4>
+                </span>
+            </div>
+
+            <div class="col-12 col-md-4 text-center">
+                <span>
+                    <h3 class="texto-negro">WHATSAPP</h3>
+                </span>
+                <span>
+                    <h4 class="texto-negro2">11-22223333</h4>
+                </span>
+            </div>
+
+            <div class="col-12 col-md-4 text-center">
+                <span>
+                    <h3 class="texto-negro">HORARIOS</h3>
+                </span>
+                <span>
+                    <h4 class="texto-negro2">11:00 a 15:00</h4>
+                    <h4 class="texto-negro2">18:00 a 23:00</h4>
+                </span>
+            </div>
+        </div>
     </footer>
 
-
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

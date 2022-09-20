@@ -48,8 +48,7 @@
     .header {
         display: flex;
         justify-content: space-between;
-        align-items: center;
-
+        align-items: center;    
     }
 
     .header__nav {
@@ -89,9 +88,47 @@
 
  
  .boton2:hover {
-     border: blue 2px solid;
+     border: sienna 2px solid;
      background: white;
-     color: blue;
+     color:sienna;
+     border-radius: 10px;
+     
  }
 
+/* main */
 
+.img-main {
+  width: 15rem;
+}
+
+/* footer */
+
+.footer {
+  background-color: rgba(233, 150, 122, 0.479);
+  padding: 15px;
+  position: absolute;
+  width: 100vw;
+}
+
+.footer__title {
+  text-align: center;
+  padding: 10px;
+}
+
+.footer__logo {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.footer__logo img {
+      width: 40px;
+}
+
+@media (min-width: 768px) {
+  .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;    
+  }
