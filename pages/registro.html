@@ -29,55 +29,56 @@
     </header>
 
 
-    <main class="container">
-        <h1 class="text-center fs-2 fw-bold fst-italic">Registrarse</h1>
+    <main class="container bg-dark">
+        <h1 class="text-center fs-2 fw-bold fst-italic p-3 mb-2 bg-danger text-white">Registrarse</h1>
 
-        <div>
+        <div class="p-3 mb-2 bg-warning text-dark">
             <form action="">
-                <div>
-                    <label for="nombre-usuario">Nombre</label>
-                    <input type="text" id="nombre-usuario" placeholder="Ej.Carlos">
+                <div class="row">
+                    <div class="col 12 col-md-6">
+                        <label for="nombre-usuario">Nombre</label>
+                        <input type="text" id="nombre-usuario" placeholder="Ej.Carlos">
+                    </div>
+
+                    <div class="col 12 col-md-6">
+                        <label for="apellido-usuario">Apellido</label>
+                        <input type="text" id="apellido-usuario" placeholder="Ej.Sanchez">
+                    </div>
+
+                    <div class="col 12 col-md-6">
+                        <label for="celular">Celular</label>
+                        <input type="text" id="celular" placeholder="Ej.1512345678">
+                    </div>
+
+                    <div class="col 12 col-md-6">
+                        <label for="fecha-nacimiento">Fecha de nacimiento</label>
+                        <input type="date" id="fecha-nacimiento">
+                    </div>
+
+                    <div class="col 12 col-md-6">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Ej.dario@gmail.com">
+                    </div>
+
+                    <div class="col 12 col-md-6">
+                        <label for="contraseña">Contraseña</label>
+                        <input type="password" id="contraseña">
+                    </div>
+
+                    <div class="col 12 col-md-6">
+                        <label for="confirmar-contraseña">Confirmar contraseña</label>
+                        <input type="password" id="confirmar-contraseña">
+                    </div>
+
+                    <div class="col 12 text-center">
+                        <span>Deseas recibir promociones?</span>
+                        <label for="">Si</label>
+                        <input type="radio" name="promociones" value="promo-si">
+
+                        <label for="">No</label>
+                        <input type="radio" name="promociones" value="promo-no">
+                    </div>
                 </div>
-
-                <div>
-                    <label for="apellido-usuario">Apellido</label>
-                    <input type="text" id="apellido-usuario" placeholder="Ej.Sanchez">
-                </div>
-
-                <div>
-                    <label for="celular">Celular</label>
-                    <input type="text" id="celular" placeholder="Ej.1512345678">
-                </div>
-
-                <div>
-                    <label for="fecha-nacimiento">Fecha de nacimiento</label>
-                    <input type="date" id="fecha-nacimiento">
-                </div>
-
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="Ej.dario@gmail.com">
-                </div>
-
-                <div>
-                    <label for="contraseña">Contraseña</label>
-                    <input type="password" id="contraseña">
-                </div>
-
-                <div>
-                    <label for="confirmar-contraseña">Confirmar contraseña</label>
-                    <input type="password" id="confirmar-contraseña">
-                </div>
-
-                <div>
-                    <span>Deseas recibir promociones?</span>
-                    <label for="">Si</label>
-                    <input type="radio" name="promociones" value="promo-si">
-
-                    <label for="">No</label>
-                    <input type="radio" name="promociones" value="promo-no">
-                </div>
-
         </div>
 
         <div>
