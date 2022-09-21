@@ -6,64 +6,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="../css/styles.css">
     <title>registro</title>
 </head>
 
 <body>
 
-<header class="header">
-    <h1 class="header__title" >Pizzeria LOS ABUELOS</h1>
-    <nav>
-        <ul>
-            <li>
-                <a class="boton1" href="../index.html">INICIO</a>
-            </li>
-        </ul>
-    </nav>
-</header>
+    <header class="header2">
+
+        <div class="header__logo">
+            <img src="../assets/pizzalogo.png" alt="logo de pizza">
+            <h1 class="header__title">Pizzeria LOS ABUELOS</h1>
+            <img src="../assets/empanadalogo.png" alt="logo de empanada">
+        </div>
+        <nav>
+            <ul>
+                <li class="text-center">
+                    <a class="boton2" href="../index.html">INICIO</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
 
-    <main>
-        <h1 class="texto texto-azul3">Registrarse</h1>
-        <form action="">
-            <label for="nombre-usuario">Nombre</label>
-            <input type="text" id="nombre-usuario" placeholder="Ej.Carlos">
+    <main class="container">
+        <h1 class="text-center">Registrarse</h1>
 
-            <label for="apellido-usuario">Apellido</label>
-            <input type="text" id="apellido-usuario" placeholder="Ej.Sanchez">
+        <div>
+            <form action="">
+                <div>
+                    <label for="nombre-usuario">Nombre</label>
+                    <input type="text" id="nombre-usuario" placeholder="Ej.Carlos">
+                </div>
 
-            <label for="celular">Celular</label>
-            <input type="text" id="celular" placeholder="Ej.1512345678">
+                <div>
+                    <label for="apellido-usuario">Apellido</label>
+                    <input type="text" id="apellido-usuario" placeholder="Ej.Sanchez">
+                </div>
 
-            <label for="fecha-nacimiento">Fecha de nacimiento</label>
-            <input type="date" id="fecha-nacimiento">
+                <div>
+                    <label for="celular">Celular</label>
+                    <input type="text" id="celular" placeholder="Ej.1512345678">
+                </div>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" placeholder="Ej.dario@gmail.com">
+                <div>
+                    <label for="fecha-nacimiento">Fecha de nacimiento</label>
+                    <input type="date" id="fecha-nacimiento">
+                </div>
 
-            <label for="contraseña">Contraseña</label>
-            <input type="password" id="contraseña">
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Ej.dario@gmail.com">
+                </div>
 
-            <label for="confirmar-contraseña">Confirmar contraseña</label>
-            <input type="password" id="confirmar-contraseña">
+                <div>
+                    <label for="contraseña">Contraseña</label>
+                    <input type="password" id="contraseña">
+                </div>
 
-            <span>Deseas recibir promociones?</span>
-            <label for="">Si</label>
-            <input type="radio" name="promociones" value="promo-si">
+                <div>
+                    <label for="confirmar-contraseña">Confirmar contraseña</label>
+                    <input type="password" id="confirmar-contraseña">
+                </div>
 
-            <label for="">No</label>
-            <input type="radio" name="promociones" value="promo-no">
+                <div>
+                    <span>Deseas recibir promociones?</span>
+                    <label for="">Si</label>
+                    <input type="radio" name="promociones" value="promo-si">
 
-            <div>
-                <input value="ENVIAR" type="submit">
-            </div>
+                    <label for="">No</label>
+                    <input type="radio" name="promociones" value="promo-no">
+                </div>
+
+        </div>
+
+        <div>
+            <input value="ENVIAR" type="submit">
+        </div>
 
 
         </form>
 
 
     </main>
+
+    <footer class="footer">
+        <div class="footer__logo">
+            <img src="../assets/pizzalogo.png" alt="logo de pizza">
+            <h1 class="footer__title">Pizzeria LOS ABUELOS</h1>
+            <img src="../assets/empanadalogo.png" alt="logo de empanada">
+        </div>
+    </footer>
 
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
